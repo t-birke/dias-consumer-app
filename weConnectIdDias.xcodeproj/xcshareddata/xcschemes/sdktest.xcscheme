@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4FD6C4731B754AF1002F9F90"
-               BuildableName = "sdktest.app"
-               BlueprintName = "sdktest"
-               ReferencedContainer = "container:sdktest.xcodeproj">
+               BuildableName = "weConnectIdDias.app"
+               BlueprintName = "weConnectIdDias"
+               ReferencedContainer = "container:weConnectIdDias.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -31,9 +31,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4FD6C4731B754AF1002F9F90"
-            BuildableName = "sdktest.app"
-            BlueprintName = "sdktest"
-            ReferencedContainer = "container:sdktest.xcodeproj">
+            BuildableName = "weConnectIdDias.app"
+            BlueprintName = "weConnectIdDias"
+            ReferencedContainer = "container:weConnectIdDias.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <Testables>
@@ -54,9 +54,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4FD6C4731B754AF1002F9F90"
-            BuildableName = "sdktest.app"
-            BlueprintName = "sdktest"
-            ReferencedContainer = "container:sdktest.xcodeproj">
+            BuildableName = "weConnectIdDias.app"
+            BlueprintName = "weConnectIdDias"
+            ReferencedContainer = "container:weConnectIdDias.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -71,9 +71,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4FD6C4731B754AF1002F9F90"
-            BuildableName = "sdktest.app"
-            BlueprintName = "sdktest"
-            ReferencedContainer = "container:sdktest.xcodeproj">
+            BuildableName = "weConnectIdDias.app"
+            BlueprintName = "weConnectIdDias"
+            ReferencedContainer = "container:weConnectIdDias.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

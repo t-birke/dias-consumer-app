@@ -22,8 +22,13 @@
 		330E1BA725A4CF310088B218 /* VehicleIconCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330E1BA625A4CF310088B218 /* VehicleIconCircle.swift */; };
 		330E1BAB25A516BF0088B218 /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330E1BAA25A516BF0088B218 /* ButtonStyles.swift */; };
 		330E1BAE25A65EB40088B218 /* LayoutElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330E1BAD25A65EB40088B218 /* LayoutElements.swift */; };
+		330E1BB425A73CDC0088B218 /* ActiveServiceAppointmentCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330E1BB325A73CDC0088B218 /* ActiveServiceAppointmentCard.swift */; };
+		330E1BB725A740340088B218 /* RentalCarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330E1BB625A740340088B218 /* RentalCarModel.swift */; };
+		330E1BBA25A7A9FD0088B218 /* RentalCarCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330E1BB925A7A9FD0088B218 /* RentalCarCard.swift */; };
 		33465E0C25A1042F00E69A6E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33465E0B25A1042F00E69A6E /* HomeView.swift */; };
-		33465E1425A11F5F00E69A6E /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33465E1325A11F5F00E69A6E /* HomeModel.swift */; };
+		33465E1425A11F5F00E69A6E /* ActiveServiceAppointmentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33465E1325A11F5F00E69A6E /* ActiveServiceAppointmentModel.swift */; };
+		33EBD7FD25A84F4500472138 /* ServiceAppointmentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EBD7FC25A84F4500472138 /* ServiceAppointmentDetailView.swift */; };
+		33EBD80025A8FB2200472138 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EBD7FF25A8FB2200472138 /* HomeViewController.swift */; };
 		4F13E93B237DD5D9005BCAE9 /* ContactDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F13E936237DD5D9005BCAE9 /* ContactDetailsView.swift */; };
 		4F13E93C237DD5D9005BCAE9 /* ContactsForAccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F13E937237DD5D9005BCAE9 /* ContactsForAccountModel.swift */; };
 		4F13E93D237DD5D9005BCAE9 /* ContactsForAccountListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F13E938237DD5D9005BCAE9 /* ContactsForAccountListView.swift */; };
@@ -59,8 +64,13 @@
 		330E1BA625A4CF310088B218 /* VehicleIconCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleIconCircle.swift; sourceTree = "<group>"; };
 		330E1BAA25A516BF0088B218 /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
 		330E1BAD25A65EB40088B218 /* LayoutElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutElements.swift; sourceTree = "<group>"; };
+		330E1BB325A73CDC0088B218 /* ActiveServiceAppointmentCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveServiceAppointmentCard.swift; sourceTree = "<group>"; };
+		330E1BB625A740340088B218 /* RentalCarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalCarModel.swift; sourceTree = "<group>"; };
+		330E1BB925A7A9FD0088B218 /* RentalCarCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalCarCard.swift; sourceTree = "<group>"; };
 		33465E0B25A1042F00E69A6E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeView.swift; path = ../HomeView.swift; sourceTree = "<group>"; };
-		33465E1325A11F5F00E69A6E /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		33465E1325A11F5F00E69A6E /* ActiveServiceAppointmentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveServiceAppointmentModel.swift; sourceTree = "<group>"; };
+		33EBD7FC25A84F4500472138 /* ServiceAppointmentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceAppointmentDetailView.swift; sourceTree = "<group>"; };
+		33EBD7FF25A8FB2200472138 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4F13E936237DD5D9005BCAE9 /* ContactDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetailsView.swift; sourceTree = "<group>"; };
 		4F13E937237DD5D9005BCAE9 /* ContactsForAccountModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsForAccountModel.swift; sourceTree = "<group>"; };
 		4F13E938237DD5D9005BCAE9 /* ContactsForAccountListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsForAccountListView.swift; sourceTree = "<group>"; };
@@ -70,7 +80,7 @@
 		4F13E941237DD5EE005BCAE9 /* userstore.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = userstore.json; sourceTree = "<group>"; };
 		4F13E946237DD72E005BCAE9 /* AccountsListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountsListModel.swift; sourceTree = "<group>"; };
 		4F393A281C3C8BCD00B3EA13 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		4FD6C4741B754AF1002F9F90 /* sdktest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sdktest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FD6C4741B754AF1002F9F90 /* weConnectIdDias.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weConnectIdDias.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FD6C4781B754AF1002F9F90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FD6C4791B754AF1002F9F90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FD6C49D1B755242002F9F90 /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
@@ -131,6 +141,9 @@
 				4F13E939237DD5D9005BCAE9 /* AccountsListView.swift */,
 				4F13E938237DD5D9005BCAE9 /* ContactsForAccountListView.swift */,
 				4F13E936237DD5D9005BCAE9 /* ContactDetailsView.swift */,
+				330E1BB325A73CDC0088B218 /* ActiveServiceAppointmentCard.swift */,
+				330E1BB925A7A9FD0088B218 /* RentalCarCard.swift */,
+				33EBD7FC25A84F4500472138 /* ServiceAppointmentDetailView.swift */,
 			);
 			name = SwiftUI;
 			sourceTree = "<group>";
@@ -141,7 +154,9 @@
 				4F13E946237DD72E005BCAE9 /* AccountsListModel.swift */,
 				4F13E937237DD5D9005BCAE9 /* ContactsForAccountModel.swift */,
 				4F13E93A237DD5D9005BCAE9 /* ContactDetailModel.swift */,
-				33465E1325A11F5F00E69A6E /* HomeModel.swift */,
+				33465E1325A11F5F00E69A6E /* ActiveServiceAppointmentModel.swift */,
+				330E1BB625A740340088B218 /* RentalCarModel.swift */,
+				33EBD7FF25A8FB2200472138 /* HomeViewController.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -159,7 +174,7 @@
 		4FD6C4751B754AF1002F9F90 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4FD6C4741B754AF1002F9F90 /* sdktest.app */,
+				4FD6C4741B754AF1002F9F90 /* weConnectIdDias.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -222,9 +237,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4FD6C4731B754AF1002F9F90 /* sdktest */ = {
+		4FD6C4731B754AF1002F9F90 /* weConnectIdDias */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4FD6C4931B754AF1002F9F90 /* Build configuration list for PBXNativeTarget "sdktest" */;
+			buildConfigurationList = 4FD6C4931B754AF1002F9F90 /* Build configuration list for PBXNativeTarget "weConnectIdDias" */;
 			buildPhases = (
 				FF74F0F7AF3E58C14EBE5178 /* [CP] Check Pods Manifest.lock */,
 				4FD6C4701B754AF1002F9F90 /* Sources */,
@@ -236,9 +251,9 @@
 			);
 			dependencies = (
 			);
-			name = sdktest;
+			name = weConnectIdDias;
 			productName = sdktest;
-			productReference = 4FD6C4741B754AF1002F9F90 /* sdktest.app */;
+			productReference = 4FD6C4741B754AF1002F9F90 /* weConnectIdDias.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -262,7 +277,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4FD6C46F1B754AF1002F9F90 /* Build configuration list for PBXProject "sdktest" */;
+			buildConfigurationList = 4FD6C46F1B754AF1002F9F90 /* Build configuration list for PBXProject "weConnectIdDias" */;
 			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -275,7 +290,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4FD6C4731B754AF1002F9F90 /* sdktest */,
+				4FD6C4731B754AF1002F9F90 /* weConnectIdDias */,
 			);
 		};
 /* End PBXProject section */
@@ -350,8 +365,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33EBD7FD25A84F4500472138 /* ServiceAppointmentDetailView.swift in Sources */,
 				B73B520D234FA65F001B069B /* SceneDelegate.swift in Sources */,
 				4FD6C47A1B754AF1002F9F90 /* AppDelegate.swift in Sources */,
+				330E1BBA25A7A9FD0088B218 /* RentalCarCard.swift in Sources */,
 				4F13E93B237DD5D9005BCAE9 /* ContactDetailsView.swift in Sources */,
 				330E1BAE25A65EB40088B218 /* LayoutElements.swift in Sources */,
 				4F13E947237DD72E005BCAE9 /* AccountsListModel.swift in Sources */,
@@ -359,12 +376,15 @@
 				33465E0C25A1042F00E69A6E /* HomeView.swift in Sources */,
 				4F13E93F237DD5D9005BCAE9 /* ContactDetailModel.swift in Sources */,
 				4F13E93D237DD5D9005BCAE9 /* ContactsForAccountListView.swift in Sources */,
-				33465E1425A11F5F00E69A6E /* HomeModel.swift in Sources */,
+				33465E1425A11F5F00E69A6E /* ActiveServiceAppointmentModel.swift in Sources */,
 				4F13E93E237DD5D9005BCAE9 /* AccountsListView.swift in Sources */,
+				330E1BB725A740340088B218 /* RentalCarModel.swift in Sources */,
 				330E1BA725A4CF310088B218 /* VehicleIconCircle.swift in Sources */,
+				33EBD80025A8FB2200472138 /* HomeViewController.swift in Sources */,
 				330E1BAB25A516BF0088B218 /* ButtonStyles.swift in Sources */,
 				4F393A291C3C8BCD00B3EA13 /* main.swift in Sources */,
 				4FD6C4A01B755242002F9F90 /* InitialViewController.swift in Sources */,
+				330E1BB425A73CDC0088B218 /* ActiveServiceAppointmentCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,7 +545,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4FD6C46F1B754AF1002F9F90 /* Build configuration list for PBXProject "sdktest" */ = {
+		4FD6C46F1B754AF1002F9F90 /* Build configuration list for PBXProject "weConnectIdDias" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4FD6C4911B754AF1002F9F90 /* Debug */,
@@ -534,7 +554,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4FD6C4931B754AF1002F9F90 /* Build configuration list for PBXNativeTarget "sdktest" */ = {
+		4FD6C4931B754AF1002F9F90 /* Build configuration list for PBXNativeTarget "weConnectIdDias" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4FD6C4941B754AF1002F9F90 /* Debug */,

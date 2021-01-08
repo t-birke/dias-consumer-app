@@ -30,6 +30,7 @@ import SalesforceSDKCore
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
+    var viewOptions = ViewOptions()
     
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         
@@ -96,7 +97,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
        MobileSyncSDKManager.shared.setupUserSyncsFromDefaultConfig()
     
        self.window?.rootViewController = UIHostingController(
-           rootView: HomeView()
+        rootView: HomeView().environmentObject(viewOptions)
         )
    }
    

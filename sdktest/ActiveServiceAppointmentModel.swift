@@ -28,7 +28,7 @@ struct HomeResponse: Decodable {
 }
 
 
-class HomeModel: ObservableObject {
+class ActiveServiceAppointmentModel: ObservableObject {
     private var workOrdersCancellable: AnyCancellable?
     @Published var workOrders: [WorkOrder]
     

@@ -66,6 +66,23 @@ struct progressBar: View {
     }
 }
 
+struct cardSectionTitle: View {
+    let title: String
+    var body: some View {
+        HStack(alignment: .bottom){
+            Text(title)
+                .font(.custom("VWHead-Bold", size: 16))
+                .foregroundColor(Color("SectionTitle"))
+            Spacer()
+            Text("now")
+                .font(.custom("VWHead-Regular", size: 16))
+                .foregroundColor(Color("SectionUpdateTimer"))
+                .padding(.trailing, 5.0)
+        }
+    }
+   
+}
+
 struct LayoutElements_Previews: PreviewProvider {
     static var previews: some View {
         progressBar(numberOfSteps: 6, activeStep: 2)
